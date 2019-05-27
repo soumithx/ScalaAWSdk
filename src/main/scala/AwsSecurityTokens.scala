@@ -1,4 +1,4 @@
-import com.amazonaws.regions.Regions
+
 import com.amazonaws.services.securitytoken.AWSSecurityTokenServiceClientBuilder
 import com.amazonaws.{ClientConfiguration,Protocol}
 import com.amazonaws.auth.STSAssumeRoleSessionCredentialsProvider
