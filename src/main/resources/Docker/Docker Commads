@@ -1,3 +1,17 @@
 #Remove All Docker Images @ a time
 
 sudo docker rm $(sudo docker ps -a -q -f status=exited)
+(or)
+docker container prune
+
+
+
+### download the image
+
+sudo docker pull busybox
+
+# run the imaghe
+sudo docker run busybox
+# run image in tty mode
+sudo docker run -it busybox sh
+
